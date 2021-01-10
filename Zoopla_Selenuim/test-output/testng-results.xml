@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-10T00:47:36Z" name="Default suite" finished-at="2021-01-10T00:48:14Z" duration-ms="37785">
+    <groups>
+    </groups>
+    <test started-at="2021-01-10T00:47:36Z" name="Default test" finished-at="2021-01-10T00:48:14Z" duration-ms="37785">
+      <class name="tests.TestCases">
+        <test-method signature="setReportAndDriver()[pri:1, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:36Z" name="setReportAndDriver" finished-at="2021-01-09T17:47:45Z" duration-ms="9269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportAndDriver -->
+        <test-method signature="handleCookiesPopUp()[pri:2, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:45Z" name="handleCookiesPopUp" finished-at="2021-01-09T17:47:45Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleCookiesPopUp -->
+        <test-method signature="validateHomePages()[pri:3, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:45Z" name="validateHomePages" finished-at="2021-01-09T17:47:45Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePages -->
+        <test-method signature="enterCityNameClickSearch()[pri:4, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:45Z" name="enterCityNameClickSearch" finished-at="2021-01-09T17:47:52Z" duration-ms="6890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCityNameClickSearch -->
+        <test-method signature="validateListingPages()[pri:5, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:52Z" name="validateListingPages" finished-at="2021-01-09T17:47:52Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateListingPages -->
+        <test-method signature="sortProperty()[pri:6, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:52Z" name="sortProperty" finished-at="2021-01-09T17:47:58Z" duration-ms="5620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProperty -->
+        <test-method signature="getPropertyList()[pri:7, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:58Z" name="getPropertyList" finished-at="2021-01-09T17:47:59Z" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPropertyList -->
+        <test-method signature="findProperty()[pri:8, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:47:59Z" name="findProperty" finished-at="2021-01-09T17:48:03Z" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findProperty -->
+        <test-method signature="AgentDetails()[pri:9, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:48:03Z" name="AgentDetails" finished-at="2021-01-09T17:48:06Z" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgentDetails -->
+        <test-method signature="verifyAgent()[pri:10, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:48:06Z" name="verifyAgent" finished-at="2021-01-09T17:48:13Z" duration-ms="6772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgent -->
+        <test-method signature="tearDown()[pri:11, instance:tests.TestCases@1e66f1f5]" started-at="2021-01-09T17:48:13Z" name="tearDown" finished-at="2021-01-09T17:48:14Z" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
