@@ -9,6 +9,10 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -21,10 +25,11 @@ public class TestBase {
 		protected static ExtentReports report;
 		public static Properties prop;
 		
-		public static void 	InitializeExtentReport() {
+		public  void 	InitializeExtentReport(String browser) {
 			String filename= new SimpleDateFormat("'ZooplaReport_'yyyyMMddHHmm'.html'").format(new Date());
+			//String path=  "C:\\Users\\divya\\git\\Zoopla1\\Zoopla_Selenuim\\src\\test\\resources\\Reports\\"+ "Zoopla.html";
+			String path= System.getProperty("user.dir")+ "\\src\\test\\resources\\Reports\\"+ browser +  "_" +  filename;
 			
-			String path= System.getProperty("user.dir")+ "src\\test\\resources\\Reports\\"+ filename;
 		     report= new ExtentReports(path);
 			}
 		
@@ -38,17 +43,24 @@ public class TestBase {
 			
 		}
 		
-		public void driverSetUp() {
+		@BeforeTest
+		@Parameters("browserName")
+		
+		public void driverSetUp(String browserName) {
 			//String browserName = prop.getProperty("browsername");
-			String browserName= "chrome"; 
+			//String browserName= "firefox"; 
 
 			if (browserName.equals("chrome")) {
-				
+				InitializeExtentReport("chrome");
 				String chromepath="C:\\Users\\divya\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe";
 				System.setProperty("webdriver.chrome.driver",chromepath );
 			     driver = new ChromeDriver();
 			} else if (browserName.equals("firefox")) {
-				// initiate firefox webdriver.gecko.driver new FirefoxDriver
+				InitializeExtentReport("firefox");
+				String geckopath="C:\\Users\\divya\\Downloads\\geckodriver-v0.28.0-win64\\geckodriver.exe";
+				System.setProperty("webdriver.gecko.driver", geckopath);
+				driver= new FirefoxDriver();
+			    
 			} else {
 				System.out.println("invalid browser name");
 			}
@@ -58,6 +70,14 @@ public class TestBase {
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
+		}
+		
+		@AfterTest
+		public void tearDown() {
+			
+			driver.close();
+			report.endTest(logger);
+			report.flush();
 		}
 		
 		

@@ -31,13 +31,13 @@ public class TestCases extends TestBase {
 	AgentPage agentpage;
 	AgentPropertyPage agentpropertypage;
 	
-	@Test(priority=1)
+	/*@Test(priority=1,enabled=false)
 	public  void setReportAndDriver() {
 		
-	driverSetUp();
-	InitializeExtentReport();
+	
+	//InitializeExtentReport();
 	logger=report.startTest("setReportAndDriver");
-	}
+	}*/
 	@Test(priority=2)
 	public void handleCookiesPopUp() throws Exception {
 		logger=report.startTest("handleCookiesPopUp");
@@ -102,7 +102,7 @@ public class TestCases extends TestBase {
 		
     }
 	
-@Test(priority=11)
+@Test(priority=11,enabled=false)
 public void tearDown() {
 	
 		driver.close();

@@ -6,4 +6,21 @@
       <class name="tests.TestCases"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="tests.TestCases">
+        <methods>
+          <include name="findProperty"/>
+          <include name="sortProperty"/>
+          <include name="validateListingPages"/>
+          <include name="verifyAgent"/>
+          <include name="handleCookiesPopUp"/>
+          <include name="getPropertyList"/>
+          <include name="validateHomePages"/>
+          <include name="enterCityNameClickSearch"/>
+          <include name="AgentDetails"/>
+        </methods>
+      </class> <!-- tests.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
