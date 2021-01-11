@@ -72,13 +72,7 @@ public class TestBase {
 
 		}
 		
-		@AfterTest
-		public void tearDown() {
-			
-			driver.close();
-			report.endTest(logger);
-			report.flush();
-		}
+		
 		
 		
 

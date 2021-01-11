@@ -38,27 +38,27 @@ public class TestCases extends TestBase {
 	//InitializeExtentReport();
 	logger=report.startTest("setReportAndDriver");
 	}*/
-	@Test(priority=2)
+	@Test(priority=1)
 	public void handleCookiesPopUp() throws Exception {
 		logger=report.startTest("handleCookiesPopUp");
 		homepage= new HomePage();
 		homepage.CookiePopUp();
 		
 	}
-	@Test(priority=3)
+	@Test(priority=2)
 	public  void validateHomePages() throws Exception {
 	logger=report.startTest("validateHomePages");
     homepage.validateHomePage();
     
 	}
-	@Test(priority=4)
+	@Test(priority=3)
 	public  void enterCityNameClickSearch() throws Exception {
 		logger=report.startTest("enterCityNameClickSearch");
 		homepage.enterTextSearchBox(city);
 		listingpage=homepage.clickOnSearch();
 	}
 	
-	@Test(priority=5)
+	@Test(priority=4)
 	public  void validateListingPages() throws Exception {
 		logger=report.startTest("validateListingPages");
 		
@@ -66,27 +66,27 @@ public class TestCases extends TestBase {
     
 	}
     
-	@Test(priority=6)
+	@Test(priority=5)
 		public void sortProperty() throws InterruptedException {
 		logger=report.startTest("sortProperty");
 		
 	     listingpage.highestPriceSort(sortType);
 			   }
 	
-	@Test(priority=7)
+	@Test(priority=6)
 	
 	public void getPropertyList() {
 		logger=report.startTest("getPropertyList");
 	listingpage.propertyFromList();
 	}
 	
-	@Test(priority=8)
+	@Test(priority=7)
 	public void findProperty() throws Exception {
 		logger=report.startTest("findProperty");
      propertypage=listingpage.findProperty() ;
      propertypage. validatePropertypage() ;
 	}
-	@Test(priority=9)
+	@Test(priority=8)
 	public void AgentDetails() throws Exception {
 		logger=report.startTest("AgentDetails");
      propertypage.logoPresent();
@@ -94,7 +94,7 @@ public class TestCases extends TestBase {
     agentpage= propertypage.namePresent();
     
 	}
-	@Test(priority=10)
+	@Test(priority=9)
 	public void verifyAgent() throws Exception {
 		logger=report.startTest("verifyAgent");
 		agentpage.validateAgentpage();
@@ -102,7 +102,7 @@ public class TestCases extends TestBase {
 		
     }
 	
-@Test(priority=11,enabled=false)
+@Test(priority=10)
 public void tearDown() {
 	
 		driver.close();

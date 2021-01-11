@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name= "Zoopla">
-<test name= "ChromeBrowserTest"> 
+<suite name= "Zoopla" >
+<test name= "ChromeBrowserTest"   > 
 <parameter name= "browserName"  value="chrome"/>
 <classes>
 <class name ="tests.TestCases"/>
 </classes>
 </test>
-<test name= "FireFoxBrowserTest"> 
+<test name= "FireFoxBrowserTest"   > 
 <parameter name= "browserName"  value="firefox"/>
 <classes>
 <class name ="tests.TestCases"/>
