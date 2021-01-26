@@ -2,12 +2,12 @@
 <testng-results total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-11T06:48:37Z" name="Zoopla" finished-at="2021-01-11T06:49:59Z" duration-ms="81560">
+  <suite started-at="2021-01-14T04:50:07Z" name="Zoopla" finished-at="2021-01-14T04:51:16Z" duration-ms="69076">
     <groups>
     </groups>
-    <test started-at="2021-01-11T06:48:37Z" name="ChromeBrowserTest" finished-at="2021-01-11T06:49:18Z" duration-ms="40817">
+    <test started-at="2021-01-14T04:50:07Z" name="ChromeBrowserTest" finished-at="2021-01-14T04:50:44Z" duration-ms="36905">
       <class name="tests.TestCases">
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:48:37Z" name="driverSetUp" finished-at="2021-01-10T23:48:51Z" duration-ms="13234" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:07Z" name="driverSetUp" finished-at="2021-01-13T21:50:20Z" duration-ms="12652" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,51 +18,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="handleCookiesPopUp()[pri:1, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:48:51Z" name="handleCookiesPopUp" finished-at="2021-01-10T23:48:51Z" duration-ms="209" status="PASS">
+        <test-method signature="handleCookiesPopUp()[pri:1, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:20Z" name="handleCookiesPopUp" finished-at="2021-01-13T21:50:20Z" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleCookiesPopUp -->
-        <test-method signature="validateHomePages()[pri:2, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:48:51Z" name="validateHomePages" finished-at="2021-01-10T23:48:51Z" duration-ms="36" status="PASS">
+        <test-method signature="validateHomePages()[pri:2, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:20Z" name="validateHomePages" finished-at="2021-01-13T21:50:20Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePages -->
-        <test-method signature="enterCityNameClickSearch()[pri:3, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:48:51Z" name="enterCityNameClickSearch" finished-at="2021-01-10T23:48:57Z" duration-ms="5691" status="PASS">
+        <test-method signature="enterCityNameClickSearch()[pri:3, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:20Z" name="enterCityNameClickSearch" finished-at="2021-01-13T21:50:26Z" duration-ms="5393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCityNameClickSearch -->
-        <test-method signature="validateListingPages()[pri:4, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:48:57Z" name="validateListingPages" finished-at="2021-01-10T23:48:57Z" duration-ms="30" status="PASS">
+        <test-method signature="validateListingPages()[pri:4, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:26Z" name="validateListingPages" finished-at="2021-01-13T21:50:26Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateListingPages -->
-        <test-method signature="sortProperty()[pri:5, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:48:57Z" name="sortProperty" finished-at="2021-01-10T23:49:02Z" duration-ms="5595" status="PASS">
+        <test-method signature="sortProperty()[pri:5, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:26Z" name="sortProperty" finished-at="2021-01-13T21:50:31Z" duration-ms="5648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortProperty -->
-        <test-method signature="getPropertyList()[pri:6, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:49:02Z" name="getPropertyList" finished-at="2021-01-10T23:49:04Z" duration-ms="1270" status="PASS">
+        <test-method signature="getPropertyList()[pri:6, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:31Z" name="getPropertyList" finished-at="2021-01-13T21:50:32Z" duration-ms="640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPropertyList -->
-        <test-method signature="findProperty()[pri:7, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:49:04Z" name="findProperty" finished-at="2021-01-10T23:49:07Z" duration-ms="2964" status="PASS">
+        <test-method signature="findProperty()[pri:7, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:32Z" name="findProperty" finished-at="2021-01-13T21:50:34Z" duration-ms="1967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findProperty -->
-        <test-method signature="AgentDetails()[pri:8, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:49:07Z" name="AgentDetails" finished-at="2021-01-10T23:49:11Z" duration-ms="4599" status="PASS">
+        <test-method signature="AgentDetails()[pri:8, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:34Z" name="AgentDetails" finished-at="2021-01-13T21:50:37Z" duration-ms="3321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AgentDetails -->
-        <test-method signature="verifyAgent()[pri:9, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:49:11Z" name="verifyAgent" finished-at="2021-01-10T23:49:18Z" duration-ms="6632" status="PASS">
+        <test-method signature="verifyAgent()[pri:9, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:37Z" name="verifyAgent" finished-at="2021-01-13T21:50:44Z" duration-ms="6449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAgent -->
-        <test-method signature="tearDown()[pri:10, instance:tests.TestCases@5b94b04d]" started-at="2021-01-10T23:49:18Z" name="tearDown" finished-at="2021-01-10T23:49:18Z" duration-ms="526" status="PASS">
+        <test-method signature="tearDown()[pri:10, instance:tests.TestCases@5b94b04d]" started-at="2021-01-13T21:50:44Z" name="tearDown" finished-at="2021-01-13T21:50:44Z" duration-ms="471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TestCases -->
     </test> <!-- ChromeBrowserTest -->
-    <test started-at="2021-01-11T06:49:18Z" name="FireFoxBrowserTest" finished-at="2021-01-11T06:49:59Z" duration-ms="40713">
+    <test started-at="2021-01-14T04:50:44Z" name="FireFoxBrowserTest" finished-at="2021-01-14T04:51:16Z" duration-ms="32139">
       <class name="tests.TestCases">
-        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:18Z" name="driverSetUp" finished-at="2021-01-10T23:49:30Z" duration-ms="11435" status="PASS">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:50:44Z" name="driverSetUp" finished-at="2021-01-13T21:50:52Z" duration-ms="7587" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,43 +73,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="handleCookiesPopUp()[pri:1, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:30Z" name="handleCookiesPopUp" finished-at="2021-01-10T23:49:30Z" duration-ms="570" status="PASS">
+        <test-method signature="handleCookiesPopUp()[pri:1, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:50:52Z" name="handleCookiesPopUp" finished-at="2021-01-13T21:50:52Z" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleCookiesPopUp -->
-        <test-method signature="validateHomePages()[pri:2, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:30Z" name="validateHomePages" finished-at="2021-01-10T23:49:30Z" duration-ms="23" status="PASS">
+        <test-method signature="validateHomePages()[pri:2, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:50:52Z" name="validateHomePages" finished-at="2021-01-13T21:50:52Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePages -->
-        <test-method signature="enterCityNameClickSearch()[pri:3, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:30Z" name="enterCityNameClickSearch" finished-at="2021-01-10T23:49:36Z" duration-ms="5606" status="PASS">
+        <test-method signature="enterCityNameClickSearch()[pri:3, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:50:52Z" name="enterCityNameClickSearch" finished-at="2021-01-13T21:50:58Z" duration-ms="5540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCityNameClickSearch -->
-        <test-method signature="validateListingPages()[pri:4, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:36Z" name="validateListingPages" finished-at="2021-01-10T23:49:36Z" duration-ms="20" status="PASS">
+        <test-method signature="validateListingPages()[pri:4, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:50:58Z" name="validateListingPages" finished-at="2021-01-13T21:50:58Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateListingPages -->
-        <test-method signature="sortProperty()[pri:5, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:36Z" name="sortProperty" finished-at="2021-01-10T23:49:43Z" duration-ms="6581" status="PASS">
+        <test-method signature="sortProperty()[pri:5, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:50:58Z" name="sortProperty" finished-at="2021-01-13T21:51:04Z" duration-ms="5815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortProperty -->
-        <test-method signature="getPropertyList()[pri:6, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:43Z" name="getPropertyList" finished-at="2021-01-10T23:49:44Z" duration-ms="998" status="PASS">
+        <test-method signature="getPropertyList()[pri:6, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:51:04Z" name="getPropertyList" finished-at="2021-01-13T21:51:04Z" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPropertyList -->
-        <test-method signature="findProperty()[pri:7, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:44Z" name="findProperty" finished-at="2021-01-10T23:49:47Z" duration-ms="3178" status="PASS">
+        <test-method signature="findProperty()[pri:7, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:51:04Z" name="findProperty" finished-at="2021-01-13T21:51:06Z" duration-ms="1923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findProperty -->
-        <test-method signature="AgentDetails()[pri:8, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:47Z" name="AgentDetails" finished-at="2021-01-10T23:49:50Z" duration-ms="3590" status="PASS">
+        <test-method signature="AgentDetails()[pri:8, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:51:06Z" name="AgentDetails" finished-at="2021-01-13T21:51:08Z" duration-ms="2122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AgentDetails -->
-        <test-method signature="verifyAgent()[pri:9, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:50Z" name="verifyAgent" finished-at="2021-01-10T23:49:57Z" duration-ms="6906" status="PASS">
+        <test-method signature="verifyAgent()[pri:9, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:51:08Z" name="verifyAgent" finished-at="2021-01-13T21:51:15Z" duration-ms="6395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAgent -->
-        <test-method signature="tearDown()[pri:10, instance:tests.TestCases@762ef0ea]" started-at="2021-01-10T23:49:57Z" name="tearDown" finished-at="2021-01-10T23:49:59Z" duration-ms="1780" status="PASS">
+        <test-method signature="tearDown()[pri:10, instance:tests.TestCases@762ef0ea]" started-at="2021-01-13T21:51:15Z" name="tearDown" finished-at="2021-01-13T21:51:16Z" duration-ms="1637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
