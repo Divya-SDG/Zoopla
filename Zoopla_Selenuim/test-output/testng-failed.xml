@@ -14,4 +14,44 @@
       <class name="tests.TestCases"/>
     </classes>
   </test> <!-- FireFoxBrowserTest -->
+  <test name="ChromeBrowserTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="tests.TestCases">
+        <methods>
+          <include name="findProperty"/>
+          <include name="sortProperty"/>
+          <include name="validateListingPages"/>
+          <include name="verifyAgent"/>
+          <include name="handleCookiesPopUp"/>
+          <include name="getPropertyList"/>
+          <include name="validateHomePages"/>
+          <include name="enterCityNameClickSearch"/>
+          <include name="driverSetUp"/>
+          <include name="driverSetUp"/>
+          <include name="AgentDetails"/>
+        </methods>
+      </class> <!-- tests.TestCases -->
+    </classes>
+  </test> <!-- ChromeBrowserTest(failed) -->
+  <test name="FireFoxBrowserTest(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="tests.TestCases">
+        <methods>
+          <include name="findProperty"/>
+          <include name="sortProperty"/>
+          <include name="validateListingPages"/>
+          <include name="verifyAgent"/>
+          <include name="handleCookiesPopUp"/>
+          <include name="getPropertyList"/>
+          <include name="validateHomePages"/>
+          <include name="enterCityNameClickSearch"/>
+          <include name="driverSetUp"/>
+          <include name="driverSetUp"/>
+          <include name="AgentDetails"/>
+        </methods>
+      </class> <!-- tests.TestCases -->
+    </classes>
+  </test> <!-- FireFoxBrowserTest(failed) -->
 </suite> <!-- Failed suite [Zoopla] -->

@@ -31,6 +31,7 @@ public class PropertyPage  extends TestBase{
 		  Boolean result= reuse.verifyText(propertypagetitle,expectedPropertyPageTitle,"	PropertyPage");
 			Assert.assertTrue(result);
 			logger.log(LogStatus.PASS, "The Property page is validated");
+			
 	  }
 	   
 	  public void logoPresent() {

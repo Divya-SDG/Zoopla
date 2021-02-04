@@ -11,6 +11,7 @@ import org.testng.Assert;
 
 import com.relevantcodes.extentreports.LogStatus;
 
+import Utilities.Log;
 import Utilities.ReusableMethods;
 import testBase.TestBase;
 
@@ -40,11 +41,13 @@ public class ListingPage extends TestBase {
 		  Boolean result= reuse.verifyText(listpagetitle,expectedListPageTitle,"HomePage");
 			Assert.assertTrue(result);
 			logger.log(LogStatus.PASS, "The list page is validated");
+			Log.info("The list page is validated ");
 	  }
 	    
 	 public void highestPriceSort(String sortType) throws InterruptedException {
 		 
 		 Select dropDown= new Select(highestPrice);
+		 Log.info("Drop down is clickable");
 		 dropDown.selectByVisibleText(sortType);
 			 Thread.sleep(5000);
 			
@@ -53,11 +56,13 @@ public class ListingPage extends TestBase {
 			 System.out.println(sortType);
 			 String s[]=sortType.split(" ");     
 			    Assert.assertTrue(val.startsWith(s[0].toLowerCase()));
+			    
 			    logger.log(LogStatus.PASS, "The sortDropDown is validated");
 	 }
 	  public void propertyFromList() {
 		  
 		   Assert.assertTrue(prop_listPrice.size()>0);
+		   Log.info("selecting property from list");
 		  logger.log(LogStatus.PASS, "The listing page is contains list of elements");
 		  logger.log(LogStatus.INFO, "prooperty list is " + prop_listPrice.toString());
 		  System.out.println(prop_listPrice.size());
@@ -79,6 +84,7 @@ public class ListingPage extends TestBase {
 			   //String area =prop_listLocation.get(PropertyNoFromList-1).getText(); 
 			   System.out.println(details); 
 		logger.log(LogStatus.PASS, "The selected "+ PropertyNoFromList+ "property price  is " + price  );
+		Log.info("The selected \"+ PropertyNoFromList+ \"property price  is \" + price ");
 		 System.out.println("The selected " + PropertyNoFromList + "  property price  is " + price  );
 		 prop_list.get(PropertyNoFromList-1).click();
 			return new  PropertyPage(details);   

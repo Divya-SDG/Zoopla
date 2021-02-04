@@ -14,6 +14,7 @@
           <include name="sortProperty"/>
           <include name="validateListingPages"/>
           <include name="verifyAgent"/>
+          <include name="tearDown"/>
           <include name="handleCookiesPopUp"/>
           <include name="getPropertyList"/>
           <include name="validateHomePages"/>

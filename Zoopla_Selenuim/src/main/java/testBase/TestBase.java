@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,9 +18,11 @@ import org.testng.annotations.Parameters;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
+import Utilities.Log;
+
 public class TestBase {
 	
-		
+	private static Logger Log = Logger.getLogger(Log.class.getName());
 		protected static WebDriver driver= null;
 		protected static ExtentTest logger;
 		protected static ExtentReports report;
