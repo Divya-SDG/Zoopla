@@ -1,57 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Zoopla]" guice-stage="DEVELOPMENT">
-  <parameter name="browserName" value="firefox"/>
   <test name="ChromeBrowserTest">
-    <parameter name="browserName" value="chrome"/>
     <classes>
       <class name="tests.TestCases"/>
     </classes>
   </test> <!-- ChromeBrowserTest -->
-  <test name="FireFoxBrowserTest">
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="tests.TestCases"/>
-    </classes>
-  </test> <!-- FireFoxBrowserTest -->
-  <test name="ChromeBrowserTest(failed)">
-    <parameter name="browserName" value="chrome"/>
-    <classes>
-      <class name="tests.TestCases">
-        <methods>
-          <include name="findProperty"/>
-          <include name="sortProperty"/>
-          <include name="validateListingPages"/>
-          <include name="verifyAgent"/>
-          <include name="handleCookiesPopUp"/>
-          <include name="getPropertyList"/>
-          <include name="validateHomePages"/>
-          <include name="enterCityNameClickSearch"/>
-          <include name="driverSetUp"/>
-          <include name="driverSetUp"/>
-          <include name="AgentDetails"/>
-        </methods>
-      </class> <!-- tests.TestCases -->
-    </classes>
-  </test> <!-- ChromeBrowserTest(failed) -->
-  <test name="FireFoxBrowserTest(failed)">
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="tests.TestCases">
-        <methods>
-          <include name="findProperty"/>
-          <include name="sortProperty"/>
-          <include name="validateListingPages"/>
-          <include name="verifyAgent"/>
-          <include name="handleCookiesPopUp"/>
-          <include name="getPropertyList"/>
-          <include name="validateHomePages"/>
-          <include name="enterCityNameClickSearch"/>
-          <include name="driverSetUp"/>
-          <include name="driverSetUp"/>
-          <include name="AgentDetails"/>
-        </methods>
-      </class> <!-- tests.TestCases -->
-    </classes>
-  </test> <!-- FireFoxBrowserTest(failed) -->
 </suite> <!-- Failed suite [Zoopla] -->

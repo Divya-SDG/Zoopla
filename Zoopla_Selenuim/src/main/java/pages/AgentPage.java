@@ -10,7 +10,8 @@ import org.testng.Assert;
 
 import com.relevantcodes.extentreports.LogStatus;
 
-import Utilities.Log;
+//import Utilities.Log;
+
 import Utilities.ReusableMethods;
 import testBase.TestBase;
 
@@ -33,7 +34,7 @@ public class AgentPage extends TestBase{
 		  Boolean result= reuse.verifyText(agentpagetitle,expectedAgentPageTitle,"AgentPage");
 			Assert.assertTrue(result);
 			logger.log(LogStatus.PASS, "The Agent page is validated");
-			Log.info("The Agent page is validated");
+			//Log.info("The Agent page is validated");
 	  }
 	   public  void listingListOfAgent() throws Exception {
 		  System.out.println(agentDetails.get(0).getText());
@@ -48,7 +49,7 @@ public class AgentPage extends TestBase{
 		   
 	      
 	      System.out.println(driver.getTitle());
-	      Log.info("List of agents"); 
+	     // Log.info("List of agents"); 
 	   Thread.sleep(3000);
 	   
 	 //  return new AgentPropertyPage(agentCallNo);

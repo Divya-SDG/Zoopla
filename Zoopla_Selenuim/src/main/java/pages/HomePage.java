@@ -28,7 +28,7 @@ public class HomePage  extends TestBase{
      }
      public  void CookiePopUp() {
     	 popup_Cookie.click();
-    	 Log.info("popup is found");
+    	// Log.info("popup is found");
      }
      
      public void  validateHomePage() {
@@ -40,18 +40,18 @@ public class HomePage  extends TestBase{
 	Boolean result= reuse.verifyText(title,expectedHomeTitle,"HomePage");
 	Assert.assertTrue(result);
 	logger.log(LogStatus.PASS, "The home page is validated");
-	Log.info("Home page is validated");
+	//Log.info("Home page is validated");
     
     
      }
      public  void enterTextSearchBox(String text) {
     	 Cityinputsearch.sendKeys(text);
-    	 Log.info("city input search is found");
+    	// Log.info("city input search is found");
     	     
      }
      public ListingPage  clickOnSearch() throws Exception{
     	 searchButton.click();
-    	 Log.info("search button is found");
+    	 //Log.info("search button is found");
     	 return new ListingPage();
      }
 }
